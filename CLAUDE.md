@@ -1,13 +1,14 @@
 # CLAUDE.md – Projektkontext für Claude Code
 
 ## Worum es geht
-Website von **Luca Gfeller** als **selbstständiger Automatiker** (Automation, Steuerungstechnik),
-gehostet über **GitHub Pages** (Repo `luca-automation`).
+Eigenständiger zweiter **Bewerbungs-CV** (Interactive CV) von **Luca Gfeller** für eine
+**Lehre als Automatiker EFZ** in der **Schweiz**, gehostet über **GitHub Pages**.
 
 **Herkunft:** Kopie des Bewerbungs-CVs aus dem Repo `cv-2026` (Stand 17.11.2026). Die beiden
 Projekte sind ab jetzt unabhängig – Änderungen hier betreffen `cv-2026` nicht und umgekehrt.
-Zielgruppe hier sind **Kunden/Auftraggeber**, nicht Ausbildungsbetriebe. Texte, Bilder und Aufbau
-schrittweise darauf umstellen.
+Zielgruppe sind **Lehrbetriebe in der Schweiz** (Automation, Elektro, Steuerungstechnik).
+Texte, Bilder und Aufbau schrittweise darauf umstellen. Schweizer Schreibweise („ss“) und
+Schweizer Begriffe verwenden (EFZ, Lehre, Lehrbetrieb, Schnupperlehre).
 Basis ist das gekaufte **InBio HTML-Template** (Rainbow-Themes, ThemeForest, Regular License),
 Variante **„Technician – Light“**. Reines statisches HTML/CSS/JS – kein Build-Schritt, kein Backend.
 
@@ -53,11 +54,11 @@ Die Website-Texte in der Sprache, die in `INHALTE.md` vorgegeben ist.
 6. `_vorlagen/` löschen, nicht benötigte Bilder/Assets entfernen (Repo schlank halten).
 
 ## Design-Entscheidungen
-- Ausrichtung: **selbstständiger Automatiker** – Bildsprache und Texte darauf ausrichten.
+- Ausrichtung: **Bewerbung Lehre Automatiker EFZ (CH)** – Bildsprache und Texte darauf ausrichten.
 - **Noch offen (separat zu ändern):** Banner (aktuell noch Bagger aus `cv-2026`) und Akzentfarbe.
   Inhalte (About, Resume) stammen noch aus dem Bewerbungs-CV und müssen umgeschrieben werden.
-- Ideen: Work-Tab für Referenzprojekte wiederherstellen (Vorlage in `_vorlagen/`), Kontaktformular
-  für Kundenanfragen.
+- Inhalte im Lebenslauf auf Automation ausrichten (Technik-Interesse, Elektro, IT, Schnupperlehren).
+- Motivationsschreiben-Entwurf existiert als Claude Doc „Motivationsschreiben – Automatiker EFZ“.
 - **Aktuelle Akzentfarbe: Orange `#bf6a1a`** (von `cv-2026` übernommen).
   Definiert in `assets/css/style.css` unter `:root` (`--color-primary`, `--color-subtitle: #a85a14`,
   `--gradient-red-hover: #bf6a1a → #8f4a10`). Neue Elemente immer mit diesen Variablen einfärben.

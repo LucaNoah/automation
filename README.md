@@ -1,4 +1,4 @@
-# Luca Gfeller – Automatiker (Website)
+# Luca Gfeller – Interactive CV Automatiker EFZ
 
 > Basiert auf dem Bewerbungs-CV aus `cv-2026`.
 
