@@ -29,7 +29,7 @@ Die Website-Texte in der Sprache, die in `INHALTE.md` vorgegeben ist.
 - `INHALTE.md` – Lucas CV-Inhalte. **Das ist die Quelle für alle Texte.**
 
 ## Aufbau von index.html (Technician-Layout)
-- **Header-Banner** (`.bg_image--9`, Bild per CSS: `assets/images/eigene/banner.jpg`, Bagger bei Sonnenaufgang, 350px hoch, `background-size: cover`)
+- **Header-Banner** (`.bg_image--9`, Bild per CSS: `assets/images/eigene/banner.jpg`, Schaltschrank mit SPS-Modulen + Roboterarm, 350px hoch, `background-size: cover`; auf Mobile/Tablet `background-position: 22%` via custom.css, damit die SPS-Module hinter dem Profilbild liegen)
 - **Profilkarte**: Foto (190×190), Name + Berufsbezeichnung (Desktop zentriert via custom.css),
   Infos (Email, Birthday, Phone, Location). Social-Icons wurden auf Lucas Wunsch entfernt.
 - **Tab-Navigation** (vertikal Desktop / unten fixiert auf Mobile):
@@ -55,13 +55,12 @@ Die Website-Texte in der Sprache, die in `INHALTE.md` vorgegeben ist.
 
 ## Design-Entscheidungen
 - Ausrichtung: **Bewerbung Lehre Automatiker EFZ (CH)** – Bildsprache und Texte darauf ausrichten.
-- **Noch offen (separat zu ändern):** Banner (aktuell noch Bagger aus `cv-2026`) und Akzentfarbe.
-  Inhalte (About, Resume) stammen noch aus dem Bewerbungs-CV und müssen umgeschrieben werden.
+- Inhalte (About, Resume) stammen noch aus dem Baumaschinen-CV und müssen umgeschrieben werden.
 - Inhalte im Lebenslauf auf Automation ausrichten (Technik-Interesse, Elektro, IT, Schnupperlehren).
 - Motivationsschreiben-Entwurf existiert als Claude Doc „Motivationsschreiben – Automatiker EFZ“.
-- **Aktuelle Akzentfarbe: Orange `#bf6a1a`** (von `cv-2026` übernommen).
-  Definiert in `assets/css/style.css` unter `:root` (`--color-primary`, `--color-subtitle: #a85a14`,
-  `--gradient-red-hover: #bf6a1a → #8f4a10`). Neue Elemente immer mit diesen Variablen einfärben.
+- **Akzentfarbe: Technik-Blau `#1477b8`** (aus dem Leuchtblau im Banner abgeleitet).
+  Definiert in `assets/css/style.css` unter `:root` (`--color-primary`, `--color-subtitle: #0f5f99`,
+  `--gradient-red-hover: #1477b8 → #0d4f80`). Neue Elemente immer mit diesen Variablen einfärben.
 - Profilbild: `assets/images/eigene/profil.jpg` (400×400, grauer Kachelhintergrund).
 
 ## Regeln

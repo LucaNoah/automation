@@ -63,3 +63,11 @@
 
 /* Tab-Navigation: kleiner Abstand zwischen den Buttons (sonst kleben aktiver und Hover-Button aneinander) */
 .tab-content-wrapper .tab-navigation-button.tab-smlg { gap: 10px; }
+
+/* Banner: auf Handy/Tablet Ausschnitt nach links verschieben, damit die
+   SPS-Module im Schaltschrank hinter dem Profilbild liegen */
+@media only screen and (max-width: 991px) {
+  .bg_image--9 {
+    background-position: 22% center;
+  }
+}
