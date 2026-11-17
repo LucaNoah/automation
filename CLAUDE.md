@@ -55,7 +55,10 @@ Die Website-Texte in der Sprache, die in `INHALTE.md` vorgegeben ist.
 
 ## Design-Entscheidungen
 - Ausrichtung: **Bewerbung Lehre Automatiker EFZ (CH)** – Bildsprache und Texte darauf ausrichten.
-- Inhalte (About, Resume) stammen noch aus dem Baumaschinen-CV und müssen umgeschrieben werden.
+- Untertitel: „Von der Schraube bis zum Code.“
+- About ist auf Automatiker umgeschrieben (Karten „Technik & Instandhaltung“ und „Softwareentwicklung“
+  mit eigenem `</>`-SVG). Resume stammt noch aus dem Baumaschinen-CV.
+- Wortwiederholungen vermeiden (Luca achtet darauf, z. B. „systematisch“, „SPS“).
 - Inhalte im Lebenslauf auf Automation ausrichten (Technik-Interesse, Elektro, IT, Schnupperlehren).
 - Motivationsschreiben-Entwurf existiert als Claude Doc „Motivationsschreiben – Automatiker EFZ“.
 - **Akzentfarbe: Technik-Blau `#1477b8`** (aus dem Leuchtblau im Banner abgeleitet).
