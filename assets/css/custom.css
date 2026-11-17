@@ -71,3 +71,8 @@
     background-position: 22% center;
   }
 }
+
+/* Lebenslauf: Trennlinie beim Überfahren weiss statt Template-Rot (#ce6e6e) */
+.white-version .rn-content-wrapper .tab-content-wrapper .tab-content .personal-experience-inner .resume-single-list:hover .heading {
+  border-bottom-color: #ffffff;
+}
