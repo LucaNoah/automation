@@ -81,8 +81,8 @@ python3 -m http.server 8000   # → http://localhost:8000
 Oder in VS Code die Erweiterung „Live Server“ nutzen.
 
 ## Deployment
-Repo `LucaNoah/luca-automation` → Settings → Pages → Deploy from branch `main` / root.
-Adresse: https://lucanoah.github.io/luca-automation/ (HTTPS automatisch).
+Repo `LucaNoah/automation` → Settings → Pages → Deploy from branch `main` / root.
+Adresse: https://lucanoah.github.io/automation/ (HTTPS automatisch).
 Keine `CNAME`-Datei: Die Domain `luca-gfeller.com` gehört zu `cv-2026` und darf hier NICHT
 eingetragen werden. Für diese Seite ggf. eine eigene Domain/Subdomain verwenden.
 `.nojekyll` ist vorhanden (verhindert Jekyll-Verarbeitung).
